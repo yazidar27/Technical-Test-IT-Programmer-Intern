@@ -1,0 +1,47 @@
+[
+    {
+        "nopol": "KB 9234 KT", 
+        "kendaraan": "motor", 
+        "waktu_parkir": 3
+    },
+    {
+        "nopol": "AA 3245 TYC", 
+        "kendaraan": "mobil", 
+        "waktu_parkir": 7
+    },
+    {
+        "nopol": "KB 9133 RE", 
+        "kendaraan": "motor", 
+        "waktu_parkir": 10
+    },
+    {
+        "nopol": "B 9234 TU", 
+        "kendaraan": "mobil", 
+        "waktu_parkir": 15
+    },
+    {
+        "nopol": "AD 9124 GH", 
+        "kendaraan": "motor", 
+        "waktu_parkir": 5
+    },
+    {
+        "nopol": "AD 9004 YGU", 
+        "kendaraan": "mobil", 
+        "waktu_parkir": 4
+    },
+    {
+        "nopol": "B 9277 IOB", 
+        "kendaraan": "mobil", 
+        "waktu_parkir": 12
+    },
+    {
+        "nopol": "AA 1143 BN", 
+        "kendaraan": "motor", 
+        "waktu_parkir": 8
+    },
+    {
+        "nopol": "B 9234 TU", 
+        "kendaraan": "mobil", 
+        "waktu_parkir": 14
+    }
+]
