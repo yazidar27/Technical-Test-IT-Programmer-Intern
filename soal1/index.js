@@ -9,7 +9,6 @@ function hitungBiayaParkir(kendaraan) {
     // Hitung biaya berdasarkan waktu parkir
     let biayaParkir = biayaMasuk + (waktuParkir * biayaPerJam);
 
-    // Diskon 5000 rupiah setiap kelipatan 5 jam jika parkir >= 5 jam
     if (waktuParkir >= 5) {
         const diskon = Math.floor(waktuParkir / 5) * 5000;
         biayaParkir -= diskon;
@@ -28,7 +27,6 @@ fs.readFile('file.json', 'utf8', (err, data) => {
     // Menguraikan (parse) data JSON
     const kendaraanData = JSON.parse(data);
 
-    // Proses setiap kendaraan dan tampilkan hasil
     const hasilBiayaParkir = kendaraanData.map(kendaraan => {
         const biaya = hitungBiayaParkir(kendaraan);
         return {
