@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3003;
 
 // Data kendaraan dan fungsi perhitungan biaya
 const kendaraanData = [
@@ -60,5 +60,5 @@ app.get('/biaya-parkir', (req, res) => {
 
 // Menjalankan server pada port 3000
 app.listen(port, () => {
-  console.log(`Server berjalan di http://localhost:${port}`);
+  console.log(`Server berjalan di http://localhost:${port}/biaya-parkir`);
 });
